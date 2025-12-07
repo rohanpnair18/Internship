@@ -1,0 +1,201 @@
+timestamp,level,user,source_ip,dest_port,message
+2025-11-24 03:03:08,INFO,dave,192.168.1.10,,System startup completed
+2025-11-24 04:21:31,INFO,system,192.168.1.30,3389,User logout
+2025-11-24 01:55:18,INFO,dave,203.0.113.77,,Disk usage: 48%
+2025-11-24 00:08:44,ALERT,alice,192.168.1.30,,Port scan attack identified
+2025-11-24 04:43:07,INFO,eve,203.0.113.45,,Software update check completed
+2025-11-24 02:27:26,INFO,carol,192.168.1.15,443,Software update check completed
+2025-11-24 04:01:29,WARN,alice,198.51.100.22,,Unusual IP login
+2025-11-24 04:26:48,INFO,carol,192.168.1.30,443,User login successful
+2025-11-24 01:11:43,ALERT,carol,192.168.1.15,,Malware download attempt prevented
+2025-11-24 01:14:45,INFO,dave,198.51.100.33,3389,Disk usage: 48%
+2025-11-24 01:27:22,INFO,bob,203.0.113.45,,Service sshd restarted
+2025-11-24 00:27:19,INFO,frank,203.0.113.77,443,Software update check completed
+2025-11-24 04:46:27,WARN,system,192.168.1.12,,Unusual DNS query volume
+2025-11-24 00:30:09,INFO,dave,198.51.100.150,,File download: contracts.zip
+2025-11-24 00:25:03,WARN,system,203.0.113.45,,Port scan detected
+2025-11-24 04:53:18,ALERT,system,198.51.100.33,,Potential DNS tunneling detected
+2025-11-24 02:02:53,WARN,system,192.168.1.10,,Unusual DNS query volume
+2025-11-24 04:31:12,INFO,carol,192.168.1.10,80,Service httpd restarted
+2025-11-24 04:13:58,WARN,frank,203.0.113.77,443,Failed login attempt
+2025-11-24 01:47:22,WARN,frank,192.168.1.15,,Suspicious outbound traffic detected
+2025-11-24 03:17:22,ALERT,frank,203.0.113.45,,IP anomaly detected
+2025-11-24 00:02:39,INFO,alice,203.0.113.77,,User logout
+2025-11-24 02:16:50,INFO,carol,192.168.1.30,80,Cron job completed: backup
+2025-11-24 02:57:29,INFO,alice,198.51.100.22,,File download: contracts.zip
+2025-11-24 00:42:24,INFO,eve,203.0.113.201,443,System startup completed
+2025-11-24 03:32:50,WARN,eve,203.0.113.45,,High number of failed SSH attempts
+2025-11-24 02:17:09,INFO,carol,198.51.100.22,,Cron job completed: backup
+2025-11-24 03:48:05,INFO,frank,192.168.1.12,,Service httpd restarted
+2025-11-24 02:57:43,WARN,eve,192.168.1.12,,Failed login attempt
+2025-11-24 03:58:38,INFO,alice,198.51.100.33,,File download: contracts.zip
+2025-11-24 04:12:01,INFO,frank,192.0.2.55,,Cron job completed: backup
+2025-11-24 02:05:47,INFO,system,203.0.113.101,22,User login successful
+2025-11-24 03:25:29,INFO,bob,192.168.1.30,443,Disk usage: 48%
+2025-11-24 02:11:13,WARN,system,198.51.100.22,,High number of failed SSH attempts
+2025-11-24 04:09:31,INFO,frank,192.168.1.30,,User login successful
+2025-11-24 03:58:15,INFO,eve,192.0.2.55,25,File download: contracts.zip
+2025-11-24 04:53:49,INFO,dave,198.51.100.22,3389,Cron job completed: backup
+2025-11-24 04:45:41,ALERT,system,198.51.100.150,,SSH brute-force detected
+2025-11-24 03:42:51,WARN,eve,203.0.113.45,,Multiple failed login attempts
+2025-11-24 04:32:58,INFO,frank,203.0.113.77,,System startup completed
+2025-11-24 03:16:56,INFO,eve,203.0.113.101,,Software update check completed
+2025-11-24 03:52:39,ALERT,system,192.168.1.12,,Port scan attack identified
+2025-11-24 03:31:49,INFO,frank,192.168.1.15,,File download: contracts.zip
+2025-11-24 04:40:10,INFO,carol,198.51.100.150,,Software update check completed
+2025-11-24 02:40:15,INFO,bob,192.168.1.15,,Scheduled virus scan completed
+2025-11-24 00:01:15,WARN,bob,198.51.100.33,,Multiple failed login attempts
+2025-11-24 02:11:47,INFO,frank,198.51.100.33,,Service httpd restarted
+2025-11-24 01:13:29,INFO,eve,192.168.1.10,,File download: contracts.zip
+2025-11-24 04:55:29,ALERT,alice,192.0.2.55,,Suspicious RDP brute-force attempt
+2025-11-24 02:35:25,INFO,system,192.168.1.30,,System startup completed
+2025-11-24 04:55:55,WARN,eve,203.0.113.101,,High number of failed SSH attempts
+2025-11-24 01:51:49,INFO,alice,192.168.1.10,,Service httpd restarted
+2025-11-24 01:50:38,ALERT,frank,203.0.113.101,,Possible spam relay identified
+2025-11-24 01:12:47,ALERT,carol,192.168.1.30,,Suspicious RDP brute-force attempt
+2025-11-24 01:17:14,INFO,alice,203.0.113.45,,Scheduled virus scan started
+2025-11-24 04:55:30,INFO,carol,192.168.1.30,22,Service httpd restarted
+2025-11-24 02:27:04,INFO,alice,192.168.1.15,,Password changed
+2025-11-24 01:59:38,INFO,frank,192.168.1.30,,Service sshd restarted
+2025-11-24 01:35:17,WARN,eve,198.51.100.33,,Unusual IP login
+2025-11-24 00:26:37,INFO,dave,198.51.100.22,,Cron job completed: backup
+2025-11-24 03:01:35,INFO,alice,203.0.113.201,,Scheduled virus scan started
+2025-11-24 04:15:58,INFO,system,198.51.100.150,443,Scheduled virus scan started
+2025-11-24 02:52:26,INFO,bob,192.168.1.30,,User login successful
+2025-11-24 03:17:18,ALERT,eve,198.51.100.150,,Port scan attack identified
+2025-11-24 01:25:04,INFO,dave,203.0.113.101,,Password changed
+2025-11-24 04:12:56,INFO,dave,198.51.100.150,22,Password changed
+2025-11-24 03:34:35,INFO,dave,192.168.1.30,,Cron job completed: backup
+2025-11-24 01:17:11,WARN,dave,192.168.1.10,,Unusual IP login
+2025-11-24 03:44:27,INFO,dave,192.168.1.30,3389,Password changed
+2025-11-24 04:19:03,WARN,bob,203.0.113.101,,Suspicious outbound traffic detected
+2025-11-24 02:56:22,WARN,dave,192.168.1.30,3389,Suspicious outbound connection blocked
+2025-11-24 03:31:08,INFO,dave,192.168.1.30,,Password changed
+2025-11-24 02:58:03,WARN,carol,192.168.1.30,,Failed login attempt
+2025-11-24 02:36:36,INFO,dave,192.0.2.55,,Password changed
+2025-11-24 03:39:15,ALERT,eve,192.168.1.12,25,Possible spam relay identified
+2025-11-24 03:00:30,INFO,alice,192.168.1.12,,Disk usage: 48%
+2025-11-24 03:41:42,WARN,eve,198.51.100.150,80,Malicious URL access attempt
+2025-11-24 03:50:16,INFO,system,192.168.1.30,,Password changed
+2025-11-24 03:14:35,INFO,system,192.0.2.55,80,User logout
+2025-11-24 04:33:37,INFO,dave,198.51.100.22,80,File download: contracts.zip
+2025-11-24 04:59:33,INFO,alice,203.0.113.77,,Scheduled virus scan started
+2025-11-24 01:54:37,INFO,frank,192.168.1.30,,Password changed
+2025-11-24 04:52:22,INFO,eve,192.168.1.15,,User login successful
+2025-11-24 00:11:08,INFO,frank,192.168.1.15,,Password changed
+2025-11-24 00:52:05,INFO,eve,192.168.1.12,,Scheduled virus scan completed
+2025-11-24 01:44:45,WARN,system,192.168.1.10,,Unusual IP login
+2025-11-24 03:12:30,ALERT,carol,203.0.113.45,,Brute-force attempt detected
+2025-11-24 03:19:45,INFO,alice,198.51.100.22,,Password changed
+2025-11-24 02:40:31,INFO,eve,192.168.1.12,,Service sshd restarted
+2025-11-24 03:25:13,INFO,system,192.168.1.12,22,Scheduled virus scan started
+2025-11-24 04:39:09,WARN,bob,192.168.1.10,,High number of failed SSH attempts
+2025-11-24 00:28:00,INFO,alice,192.168.1.12,,Cron job completed: backup
+2025-11-24 03:50:10,WARN,eve,198.51.100.33,22,Unusual IP login
+2025-11-24 01:46:58,WARN,alice,192.168.1.15,,Unusual DNS query volume
+2025-11-24 04:47:08,INFO,bob,198.51.100.33,,Disk usage: 48%
+2025-11-24 03:25:38,WARN,eve,192.168.1.30,,Port scan detected
+2025-11-24 01:05:53,INFO,frank,203.0.113.201,,Password changed
+2025-11-24 00:45:34,INFO,frank,192.168.1.30,,Software update check completed
+2025-11-24 02:18:57,ALERT,carol,198.51.100.22,,Malware download attempt prevented
+2025-11-24 01:31:11,ALERT,eve,192.0.2.55,,Malware download attempt prevented
+2025-11-24 00:29:42,ALERT,dave,203.0.113.45,,Malware download attempt prevented
+2025-11-24 03:44:01,INFO,system,192.0.2.55,,Scheduled virus scan completed
+2025-11-24 01:37:40,INFO,dave,203.0.113.77,,User login successful
+2025-11-24 02:37:01,WARN,bob,192.0.2.55,,Suspicious outbound connection blocked
+2025-11-24 00:13:26,WARN,carol,192.168.1.30,,Multiple failed login attempts
+2025-11-24 02:36:20,INFO,carol,203.0.113.77,443,User logout
+2025-11-24 02:14:28,WARN,carol,203.0.113.45,80,Suspicious outbound connection blocked
+2025-11-24 01:09:19,INFO,frank,203.0.113.45,,User logout
+2025-11-24 01:08:33,WARN,eve,192.168.1.12,,High number of failed SSH attempts
+2025-11-24 04:37:29,INFO,frank,198.51.100.150,,Cron job completed: backup
+2025-11-24 03:41:59,INFO,dave,192.168.1.10,,Disk usage: 48%
+2025-11-24 01:10:22,INFO,dave,192.168.1.10,,File uploaded: report.pdf
+2025-11-24 01:42:28,ALERT,carol,203.0.113.45,443,SSH brute-force detected
+2025-11-24 02:10:58,ALERT,system,203.0.113.101,3389,Malware download attempt prevented
+2025-11-24 02:35:46,WARN,dave,192.168.1.12,3389,Suspicious outbound traffic detected
+2025-11-24 03:40:19,INFO,eve,203.0.113.45,,Password changed
+2025-11-24 03:23:34,INFO,frank,198.51.100.33,,Service sshd restarted
+2025-11-24 01:06:35,ALERT,bob,198.51.100.150,,IP anomaly detected
+2025-11-24 01:30:47,INFO,bob,203.0.113.201,,Scheduled virus scan started
+2025-11-24 03:23:28,ALERT,frank,203.0.113.77,,Possible spam relay identified
+2025-11-24 01:33:27,INFO,alice,192.0.2.55,443,Disk usage: 48%
+2025-11-24 03:26:28,INFO,alice,203.0.113.201,25,Cron job completed: backup
+2025-11-24 01:52:54,WARN,carol,203.0.113.77,,Unusual IP login
+2025-11-24 00:40:00,INFO,dave,203.0.113.201,,User logout
+2025-11-24 00:51:54,INFO,frank,192.168.1.30,,User logout
+2025-11-24 04:53:39,INFO,carol,203.0.113.101,,Password changed
+2025-11-24 00:46:28,INFO,dave,203.0.113.77,,System startup completed
+2025-11-24 02:58:56,INFO,dave,203.0.113.45,3389,Service sshd restarted
+2025-11-24 04:22:55,INFO,dave,198.51.100.150,,File uploaded: report.pdf
+2025-11-24 02:11:46,INFO,carol,198.51.100.33,,Software update check completed
+2025-11-24 01:05:50,WARN,bob,192.0.2.55,,Port scan detected
+2025-11-24 04:07:35,ALERT,dave,198.51.100.150,,Potential DNS tunneling detected
+2025-11-24 04:23:35,WARN,eve,192.168.1.30,,Suspicious outbound connection blocked
+2025-11-24 04:29:45,WARN,eve,192.0.2.55,,Failed login attempt
+2025-11-24 01:50:45,INFO,bob,203.0.113.201,,Scheduled virus scan completed
+2025-11-24 02:54:13,WARN,alice,192.0.2.55,,Malicious URL access attempt
+2025-11-24 02:24:47,WARN,alice,192.168.1.30,443,High number of failed SSH attempts
+2025-11-24 03:38:18,WARN,frank,203.0.113.77,,Unusual IP login
+2025-11-24 04:29:16,INFO,alice,192.168.1.10,22,System startup completed
+2025-11-24 01:36:48,INFO,dave,198.51.100.33,,System startup completed
+2025-11-24 01:33:32,INFO,eve,192.168.1.15,,Software update check completed
+2025-11-24 04:10:09,INFO,system,203.0.113.101,,System startup completed
+2025-11-24 01:10:22,INFO,carol,192.0.2.55,443,Service sshd restarted
+2025-11-24 01:19:04,INFO,system,192.0.2.55,,Service httpd restarted
+2025-11-24 01:35:19,INFO,bob,192.168.1.10,,Scheduled virus scan completed
+2025-11-24 01:47:13,ALERT,carol,192.0.2.55,,Possible spam relay identified
+2025-11-24 01:14:44,WARN,bob,192.168.1.15,3389,Suspicious outbound traffic detected
+2025-11-24 03:44:06,INFO,alice,203.0.113.45,,Cron job completed: backup
+2025-11-24 04:19:52,INFO,bob,198.51.100.150,,Scheduled virus scan completed
+2025-11-24 04:52:30,INFO,dave,198.51.100.150,,Disk usage: 48%
+2025-11-24 00:40:23,ALERT,alice,203.0.113.101,,Potential malware communication
+2025-11-24 00:03:52,WARN,dave,192.168.1.15,,Suspicious outbound connection blocked
+2025-11-24 00:37:11,INFO,alice,203.0.113.45,,User logout
+2025-11-24 03:10:00,INFO,eve,192.0.2.55,443,User login successful
+2025-11-24 02:10:50,WARN,system,192.168.1.12,,Failed login attempt
+2025-11-24 04:32:56,INFO,eve,203.0.113.77,,Service httpd restarted
+2025-11-24 03:19:13,ALERT,carol,192.168.1.10,,Possible spam relay identified
+2025-11-24 02:37:28,INFO,carol,198.51.100.33,22,Scheduled virus scan started
+2025-11-24 00:52:38,ALERT,system,192.0.2.55,,Potential DNS tunneling detected
+2025-11-24 00:56:13,WARN,system,198.51.100.22,22,Failed login attempt
+2025-11-24 00:45:00,INFO,eve,203.0.113.201,,User logout
+2025-11-24 03:32:34,INFO,carol,192.0.2.55,,User logout
+2025-11-24 00:59:55,INFO,dave,192.168.1.10,,File download: contracts.zip
+2025-11-24 02:37:59,ALERT,frank,198.51.100.150,,Brute-force attempt detected
+2025-11-24 00:29:16,WARN,dave,203.0.113.77,443,Port scan detected
+2025-11-24 00:50:09,INFO,frank,192.168.1.15,,User login successful
+2025-11-24 04:41:36,WARN,frank,192.168.1.10,,Unusual DNS query volume
+2025-11-24 01:05:13,WARN,eve,203.0.113.201,,Malicious URL access attempt
+2025-11-24 01:27:15,WARN,alice,203.0.113.45,,High number of failed SSH attempts
+2025-11-24 01:58:59,WARN,system,198.51.100.33,,Failed login attempt
+2025-11-24 04:00:39,ALERT,system,198.51.100.150,,Potential DNS tunneling detected
+2025-11-24 00:37:14,INFO,frank,198.51.100.22,443,Service httpd restarted
+2025-11-24 01:57:38,ALERT,frank,203.0.113.101,443,Port scan attack identified
+2025-11-24 01:40:50,ALERT,carol,203.0.113.45,25,Potential malware communication
+2025-11-24 04:32:37,INFO,alice,192.0.2.55,,Software update check completed
+2025-11-24 02:26:22,INFO,dave,192.168.1.30,22,File uploaded: report.pdf
+2025-11-24 03:18:26,INFO,alice,203.0.113.45,,User login successful
+2025-11-24 03:23:29,INFO,system,192.0.2.55,22,Disk usage: 48%
+2025-11-24 03:25:09,WARN,eve,192.0.2.55,3389,Port scan detected
+2025-11-24 03:20:56,WARN,system,192.168.1.15,,Unusual DNS query volume
+2025-11-24 01:32:48,WARN,carol,198.51.100.22,25,Suspicious outbound traffic detected
+2025-11-24 02:03:29,INFO,dave,192.168.1.30,22,Service httpd restarted
+2025-11-24 02:02:55,INFO,bob,192.168.1.10,,Password changed
+2025-11-24 02:20:07,INFO,eve,192.0.2.55,,System startup completed
+2025-11-24 04:47:31,INFO,bob,192.168.1.30,,System startup completed
+2025-11-24 02:21:54,ALERT,alice,203.0.113.77,,Malware download attempt prevented
+2025-11-24 02:25:19,INFO,alice,192.168.1.30,80,Cron job completed: backup
+2025-11-24 01:46:22,ALERT,frank,198.51.100.33,,Suspicious RDP brute-force attempt
+2025-11-24 02:09:28,WARN,bob,192.168.1.12,,Failed login attempt
+2025-11-24 04:07:55,WARN,eve,192.168.1.30,,Suspicious outbound traffic detected
+2025-11-24 02:44:36,INFO,carol,192.168.1.15,,Service httpd restarted
+2025-11-24 04:07:21,INFO,eve,203.0.113.45,,Password changed
+2025-11-24 00:14:12,WARN,system,203.0.113.77,,Malicious URL access attempt
+2025-11-24 01:38:30,ALERT,bob,203.0.113.101,443,Brute-force attempt detected
+2025-11-24 03:54:55,INFO,bob,203.0.113.77,3389,System startup completed
+2025-11-24 02:43:39,INFO,system,203.0.113.77,3389,Password changed
+2025-11-24 03:41:07,INFO,bob,198.51.100.33,80,Service httpd restarted
+2025-11-24 04:57:49,ALERT,dave,192.168.1.30,3389,Potential malware communication
+2025-11-24 02:52:46,INFO,alice,192.168.1.15,25,File download: contracts.zip
+2025-11-24 03:53:18,ALERT,system,203.0.113.45,,Port scan attack identified

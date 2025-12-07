@@ -1,0 +1,10 @@
+Policy on passwords
+
+1) Length: Passwords must be of 8-12 characters as it would be harder to bruteforce with increase in length 
+2) Complexity: Passwords must consist of a mixture of uppercase and lowercase letters , numbers and special characters to prevent dictionary atacks
+3) Patterns: Avoid common patterns and personal information 
+4) Password re-use: Avoid using previous passwords 
+5) Multifactor Authentication (MFA) : Even if the password is compromised , MFA can prevent unauthorised acess
+6) Lock accounts after multiple unsucessful attempts to login
+
+ 
