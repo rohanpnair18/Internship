@@ -1,0 +1,106 @@
+1. Enable MFA on the Root Account
+
+Issue: Root account has the highest privileges and is often unsecured.
+Fix:
+
+Go to IAM → Dashboard → Activate MFA
+
+Use a virtual MFA device (Google Authenticator / Authy)
+
+Why: Prevents unauthorized access to the entire AWS account.
+
+2. Remove Any Root Access Keys
+
+Issue: Root access keys are extremely risky and should never exist.
+Fix:
+
+Go to IAM → Users → Security Credentials
+
+Delete root access keys if they are present.
+
+Why: Root keys can be used to fully compromise the account.
+
+3. Enable CloudTrail
+
+Issue: No logging → No visibility into activity.
+Fix:
+
+Go to CloudTrail → Create Trail
+
+Enable:
+
+Multi-region trail
+
+Log file validation
+
+SSE-S3 or KMS encryption
+
+Why: Required for security monitoring and auditing.
+
+4. Enable GuardDuty
+
+Issue: Threat detection disabled.
+Fix:
+
+Open GuardDuty → Enable
+
+Leave default protections on
+
+Why: Detects suspicious activity, brute-force attacks, and IAM misuse.
+
+5. Enable AWS Config
+
+Issue: No configuration tracking.
+Fix:
+
+Go to AWS Config → Enable
+
+Record all resources
+
+Store logs in S3 (encrypted)
+
+Why: Helps track changes and detect misconfigurations later.
+
+6. Turn On S3 Block Public Access (Global Setting)
+
+Issue: If not enabled, future buckets may become public by accident.
+Fix:
+
+Go to S3 → Block Public Access (Account Level)
+
+Turn ON all 4 settings
+
+Why: Prevents accidental public data exposure.
+
+7. Review the Default VPC Security Groups
+
+Issue: Default security groups might be too permissive later.
+Fix:
+
+Leave inbound empty
+
+Ensure no “Allow 0.0.0.0/0 inbound” rules exist
+
+Why: Prevents future unsecured deployments.
+
+8. Enable Security Hub
+
+Issue: No centralized security dashboard.
+Fix:
+
+Go to Security Hub
+
+Enable AWS Foundational Security Best Practices & CIS Benchmark
+
+Why: Helps detect misconfigurations automatically.
+
+9. Set Up Billing and Security Alerts
+
+Issue: No alerts for unusual spend or suspicious events.
+Fix:
+
+Set up CloudWatch billing alarms
+
+Enable AWS Account Security Notifications (SNS or email)
+
+Why: Prevents unnoticed breaches or cost spikes.
